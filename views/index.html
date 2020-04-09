@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<script type="text/javascript" src="https://unpkg.com/vtk.js"></script>
+      <script type="text/javascript" src="javascripts/dropdown.js"></script>
+
+			<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+		</head>
+		<body>
+
+			<div class="sidebar">
+
+        <div class="dropdown">
+          <button onclick="dropFunction()" class="dropDown"> Subject 244 </button>
+          <div id="myDropdown" class="dropdown-content">
+            <button onclick="dropButton(1)" >Cone</button>
+            <button onclick="dropButton(2)">Cube</button>
+          </div>
+        </div>
+			</div>
+			<div class="container" id="container"></div>
+
+			<!-- <script src="javascripts/test.js"></script> -->
+
+      <!-- <script type="module" src="javascripts/dicom.js "></script> -->
+	</html>

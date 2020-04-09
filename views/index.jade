@@ -1,0 +1,17 @@
+extends layout
+
+doctype html
+html
+  head
+    script(type='text/javascript', src='javascripts/dropdown.js')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+  body
+    .sidebar
+      .dropdown
+        button.dropDown(onclick='dropFunction()')  Subject 244
+        #myDropdown.dropdown-content
+          button(onclick='dropButton(1)') Link 1
+          button(onclick='dropButton(2)') Link 2
+    #container.container
+
+    script(type='module', src='javascripts/dicom.js ')
