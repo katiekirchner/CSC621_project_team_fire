@@ -16,9 +16,9 @@
     "morgan": "^1.10.0",
     "papaya-viewer": "^1.0.1449",
     "swig": "^1.4.2",
-    "webpack": "^4.42.1"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^5.0.1"
   }
 }
